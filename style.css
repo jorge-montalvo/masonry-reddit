@@ -1,0 +1,57 @@
+*{margin:0;padding:0;}
+
+body {
+    background: #222;
+    color: white;
+    font: bold 14pt DejaVu Sans Mono;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#reddit {
+    column-width: 200px;
+    column-gap: 10px;
+    text-align: left;
+}
+
+.subreddit {
+    display: inline-block;
+    font: normal 10pt DejaVu Sans Mono;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.subreddit a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    background: #444;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    line-height: 50px;
+}
+
+ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+svg {
+    z-index: -1;
+    position: relative;
+}
